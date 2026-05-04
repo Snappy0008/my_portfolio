@@ -217,7 +217,7 @@ h3 {
 
 .hero-visual::before {
   position: absolute;
-  inset: 8% -5% -6% 8%;
+  inset: 8% 22% -8% 0%;
   z-index: -1;
   border-radius: 8px;
   background: #d8efe8;
@@ -225,8 +225,8 @@ h3 {
 }
 
 .hero-visual img {
+      width: 70% !important;
   width: min(100%, 560px);
-  aspect-ratio: 1 / 1;
   border: 1px solid rgba(255, 255, 255, 0.72);
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -292,7 +292,7 @@ h3 {
 }
 
 .section {
-  padding: clamp(64px, 9vw, 110px) clamp(18px, 5vw, 72px);
+  padding: clamp(39px, 9vw, 53px) clamp(17px, 5vw, 69px);
 }
 
 .two-column {
@@ -313,7 +313,7 @@ h3 {
 
 .section-heading {
   max-width: 840px;
-  margin-bottom: 24px;
+  margin-bottom: 34px;
 }
 
 .skills-grid,
